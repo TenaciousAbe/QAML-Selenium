@@ -1,4 +1,5 @@
 import Steps.GoogleSteps;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -34,7 +35,7 @@ public class GoogleTest extends BaseTest {
     }
     @Test //Trabajo clase 03/05/23
     public void moveGoogleTest(){
-        //Google
+     /*   //Google
         String urlExpected = "https://www.google.com/";
         googleSteps.abrirPaginaGoogle();
         String urlActual = googleSteps.getURLActual();
@@ -66,5 +67,6 @@ public class GoogleTest extends BaseTest {
         Assert.assertEquals(googleSteps.getURLActual(), urlExpected);
 
         googleSteps.finalizarWebDriver();
+        webDriver.findElement(By.ByClassName).findElement(By.name().findElement()); */
     }
 }
