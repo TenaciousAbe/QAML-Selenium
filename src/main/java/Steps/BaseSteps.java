@@ -22,5 +22,7 @@ public class BaseSteps {
     public String getCodigoFuente(){
         return webDriver.getPageSource();
     }
-
+    public void imprimir(String cadenaAImprimir){
+        System.out.println(cadenaAImprimir);
+    }
 }
